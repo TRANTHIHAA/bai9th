@@ -6,10 +6,30 @@
 </head>
 <body>
 <script>
-  let a= prompt('nhap chieu dai')
-  let b= prompt('nhap chieu rong')
-  S=a*b
-  alert(S)
+    // let a = parseInt(prompt("nhap so1"));
+    // let b = parseInt(prompt("nhap so2"));
+    // let c = parseInt(prompt("nhap so3"));
+    // if(a>b){
+    //     if(a>c){
+    //         document.write("a");
+    //     } else{
+    //         document.write("c");
+    //     }
+    // } else if(b>c){
+    //     document.write("b");
+    // }
+    let a= prompt('nhap so a');
+    let b= prompt("nhap so b");
+    let c= prompt("nhap so c");
+    if(a>b && a>c) {
+        alert(a);
+    }
+    if(b>a && b>c) {
+        alert(b);
+    }
+    if(c>a && c>b) {
+        alert(c);
+    }
 </script>
 </body>
 </html>

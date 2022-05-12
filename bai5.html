@@ -6,10 +6,13 @@
 </head>
 <body>
 <script>
-    let a=prompt("nhap chieu dai canh")
-    let b= prompt("nhap chieu dai canh")
-    S=(a*b)/2
-    alert(S)
+    let bkt= parseFloat(prompt('nhap diem'));
+    let gk=parseFloat(prompt('nhap diem'));
+    let ck=parseFloat(prompt('nhap diem'));
+  let diem= (bkt+gk+ck)/3
+
+  let thu_hang=(diem>8)?'Giỏi':(diem>6.5)?'Khá':(diem>5)?'TB':'Yếu';
+  document.write(thu_hang);
 </script>
 </body>
 </html>
