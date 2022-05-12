@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let a =parseFloat(prompt("nhập số tiền"));
+    if(a<5000000) {
+        document.write('Thu nhập của bạn chưa tới mức phải đóng thuế')
+    } else if(a<15000000) {
+        thue = a*15/100
+        document.write("mức thuế của bạn là:"+thue);
+    } else if(a<35000000) {
+       thue = a*20/100
+        document.write('mức thuế của bạn là:'+thue);
+   } else if(a<80000000) {
+       thue= a*30/100
+      document.write('mức thuế của bạn là:'+thue);
+    } else {
+        thue= a*35/100
+        document.write('mức thuế của bạn là: '+thue)
+    }
+</script>
+</body>
+</html>
